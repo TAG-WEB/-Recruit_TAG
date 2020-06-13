@@ -122,3 +122,80 @@ table .mem_tr1 img{
 table .mem_tr2 img{
   width: 60%;
 }
+/* Portfolio */
+.portfolio h1{
+  color: #8BA6E6;
+  margin-bottom:10px;
+  font-size:30px;
+}
+.portfolio{
+  margin-left: 50px;
+  margin-right:100px;
+}
+.port_menu{
+  font-size: 20px;
+  list-style: none;
+  font-family: 'Gothic A1', sans-serif;
+  color:white;
+}
+.port_menu a{
+  text-decoration: none;
+  color: #fff;
+}
+.port_box{
+  display:flex;
+  text-align:center;
+  font-size:23px;
+}
+.for_icon{
+  position: relative;
+
+}
+.port_img{
+  position: absolute;
+  top:37%;
+}
+.port_box2{
+  overflow: hidden;
+  padding: 6% 10px;
+  background: #A0CFEF;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 0px 10px 0px #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: transform .3s;
+  width: 500%;
+  height: auto;
+  margin: 2%;
+  display:inline-block;
+  margin-top:5%;
+}
+.port_box2:hover{
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.port_box2 li{
+  opacity: 0;
+  font-size: 30px;
+}
+.port_box2 li:hover{
+  opacity:1;
+}
+#com{
+  left: 5.7%;
+}
+#study{
+  left: 25.5%;
+}
+#comstu{
+  top: 38%;
+  left: 46.5%;
+}
+#pre{
+  top: 38%;
+  left: 65.6%;
+}
+#music{
+  left: 85%;
+}
