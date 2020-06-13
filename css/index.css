@@ -6,6 +6,8 @@ body {
 margin: 0;
 font-family: Arial, Helvetica, sans-serif;
 background-color:#B0CFF5;
+
+
 }
 
 /* Style the side navigation */
@@ -15,9 +17,14 @@ width:550px;
 top: 0;
 left:0;
 z-index: 1;
+
+display: flex;
 overflow-x: hidden;
 float:right;
-display:inline-block;
+
+flex-direction: column;
+justify-content: space-around;
+
 }
 
 
@@ -28,16 +35,14 @@ width:250px;
 color: white;
 text-decoration: none;
 display: block;
-margin:10px;
-margin-bottom:120px;
-margin-top:100px;
-margin-left:50px;
-
+margin-right: 20%;
+margin-top: 33%;
 border-style:solid;
 border-width:2px;
 border-radius:6px;
 text-align:center;
 box-shadow: 2px 2px 5px 1px #99BDDF;
+
 }
 
 /* Change color on hover */

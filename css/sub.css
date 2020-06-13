@@ -70,25 +70,34 @@ footer ul li{
   background: linear-gradient(0deg, rgba(109,124,228,1) 0%, rgba(139,166,230,1) 49%, rgba(176,207,245,1) 100%, rgba(135,144,203,1) 100%);
 }
 .act1 h2{
-  margin-top: 10px;
-  margin-left: 15px;
-  font-size: 30px;
+  margin-top: 2%;
+  margin-left: 1%;
+  font-size: 300%;
 }
 .act1 h2 em{
-  font-size: 10px;
+  font-size: 3%;
 }
 .act_menu{
-  font-size: 20px;
+  font-size: 120%;
   list-style: none;
 }
 .act_menu a{
   text-decoration: none;
   color: white;
 }
+.act_menu li p{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+.act_menu li p em{
+  font-size: 10%;
+}
 .active h3{
-  margin-top: 10px;
-  margin-left: 15px;
-  font-size: 18px;
+  margin-top: 2%;
+  margin-left: 1%;
+  font-size: 150%;
 }
 /* member */
 table{
