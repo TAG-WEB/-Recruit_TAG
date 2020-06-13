@@ -70,25 +70,34 @@ footer ul li{
   background: linear-gradient(0deg, rgba(109,124,228,1) 0%, rgba(139,166,230,1) 49%, rgba(176,207,245,1) 100%, rgba(135,144,203,1) 100%);
 }
 .act1 h2{
-  margin-top: 10px;
-  margin-left: 15px;
-  font-size: 30px;
+  margin-top: 2%;
+  margin-left: 1%;
+  font-size: 300%;
 }
 .act1 h2 em{
-  font-size: 10px;
+  font-size: 3%;
 }
 .act_menu{
-  font-size: 20px;
+  font-size: 120%;
   list-style: none;
 }
 .act_menu a{
   text-decoration: none;
   color: white;
 }
+.act_menu li p{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+.act_menu li p em{
+  font-size: 10%;
+}
 .active h3{
-  margin-top: 10px;
-  margin-left: 15px;
-  font-size: 18px;
+  margin-top: 2%;
+  margin-left: 1%;
+  font-size: 150%;
 }
 /* member */
 table{
@@ -121,4 +130,81 @@ table .mem_tr1 img{
 }
 table .mem_tr2 img{
   width: 60%;
+}
+/* Portfolio */
+.portfolio h1{
+  color: #8BA6E6;
+  margin-bottom:10px;
+  font-size:30px;
+}
+.portfolio{
+  margin-left: 50px;
+  margin-right:100px;
+}
+.port_menu{
+  font-size: 20px;
+  list-style: none;
+  font-family: 'Gothic A1', sans-serif;
+  color:white;
+}
+.port_menu a{
+  text-decoration: none;
+  color: #fff;
+}
+.port_box{
+  display:flex;
+  text-align:center;
+  font-size:23px;
+}
+.for_icon{
+  position: relative;
+
+}
+.port_img{
+  position: absolute;
+  top:37%;
+}
+.port_box2{
+  overflow: hidden;
+  padding: 6% 10px;
+  background: #A0CFEF;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 0px 10px 0px #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: transform .3s;
+  width: 500%;
+  height: auto;
+  margin: 2%;
+  display:inline-block;
+  margin-top:5%;
+}
+.port_box2:hover{
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.port_box2 li{
+  opacity: 0;
+  font-size: 30px;
+}
+.port_box2 li:hover{
+  opacity:1;
+}
+#com{
+  left: 5.7%;
+}
+#study{
+  left: 25.5%;
+}
+#comstu{
+  top: 38%;
+  left: 46.5%;
+}
+#pre{
+  top: 38%;
+  left: 65.6%;
+}
+#music{
+  left: 85%;
 }
